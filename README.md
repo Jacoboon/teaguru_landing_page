@@ -14,6 +14,7 @@ Static, single-page site for Tea Guru hosted on GitHub Pages.
   1) “Wisdom flows where tea is brewed.”  
   2) “The tea knows what the soul has forgotten.”  
   3) “Sip slowly; the universe is listening.”
+- Favicon/OG: `assets/logo.png` used for favicon, apple-touch-icon, and Open Graph preview. If you want a text-free mark, we can crop the icon and export a transparent 1200×630 PNG for OG.
 
 ## Project structure
 - `index.html` – content and sections (hero, product, ingredients, ritual, story, find, contact, footer).

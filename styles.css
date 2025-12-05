@@ -1,13 +1,13 @@
 :root {
-  --color-bg: #f7f2ea;
-  --color-surface: #fffaf3;
-  --color-primary: #325842;
-  --color-secondary: #d9c7a7;
-  --color-text-main: #1f1c18;
-  --color-text-muted: #6a6358;
-  --color-border: #e6ddcd;
-  --color-highlight: #d89a4c;
-  --shadow-soft: 0 10px 35px rgba(0, 0, 0, 0.08);
+  --color-bg: #f4f8fb;
+  --color-surface: #ffffff;
+  --color-primary: #0c568a; /* Dark Tea Blue */
+  --color-secondary: #88cce5; /* Light Tea Blue */
+  --color-text-main: #0d1f2c;
+  --color-text-muted: #4c6271;
+  --color-border: #d5e6f1;
+  --color-highlight: #88cce5;
+  --shadow-soft: 0 10px 35px rgba(12, 86, 138, 0.12);
   --radius: 18px;
   --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-heading: "Playfair Display", "Georgia", "Times New Roman", serif;
@@ -97,7 +97,7 @@ textarea:focus-visible {
 
 .btn-primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 12px 36px rgba(50, 88, 66, 0.18);
+  box-shadow: 0 12px 36px rgba(12, 86, 138, 0.18);
 }
 
 .btn-outline {
@@ -107,14 +107,14 @@ textarea:focus-visible {
 }
 
 .btn-outline:hover {
-  background: rgba(50, 88, 66, 0.08);
+  background: rgba(12, 86, 138, 0.08);
 }
 
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 242, 234, 0.95);
+  background: rgba(244, 248, 251, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -193,7 +193,7 @@ textarea:focus-visible {
 }
 
 .hero {
-  background: radial-gradient(90% 120% at 90% 10%, rgba(50, 88, 66, 0.08), transparent), radial-gradient(80% 90% at 10% 30%, rgba(216, 154, 76, 0.1), transparent);
+  background: radial-gradient(90% 120% at 90% 10%, rgba(12, 86, 138, 0.08), transparent), radial-gradient(80% 90% at 10% 30%, rgba(136, 204, 229, 0.16), transparent);
 }
 
 .hero-inner {
@@ -211,7 +211,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.8rem;
-  background: rgba(216, 154, 76, 0.12);
+  background: rgba(136, 204, 229, 0.2);
   border-radius: 999px;
   font-weight: 700;
   color: var(--color-primary);
@@ -253,7 +253,7 @@ textarea:focus-visible {
   content: "";
   position: absolute;
   inset: -12% -10% -8% -10%;
-  background: radial-gradient(circle at 50% 40%, rgba(50, 88, 66, 0.18), transparent 60%), linear-gradient(160deg, rgba(216, 154, 76, 0.25), rgba(50, 88, 66, 0.18));
+  background: radial-gradient(circle at 50% 40%, rgba(12, 86, 138, 0.18), transparent 60%), linear-gradient(160deg, rgba(136, 204, 229, 0.25), rgba(12, 86, 138, 0.18));
   filter: blur(30px);
   z-index: 0;
 }
@@ -421,7 +421,7 @@ textarea:focus-visible {
 .form-field select:focus,
 .form-field textarea:focus {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(50, 88, 66, 0.12);
+  box-shadow: 0 0 0 3px rgba(12, 86, 138, 0.12);
   outline: none;
 }
 

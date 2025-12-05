@@ -8,6 +8,12 @@ Static, single-page site for Tea Guru hosted on GitHub Pages.
   - Light Tea Blue `#88cce5` (secondary/highlight)  
   - White `#ffffff` (background/surface)  
 - Email: `teagurullc@gmail.com`
+- Logo: `assets/logo.png` (PNG, bottle-front canonical)
+- Tagline (site hero): “Wisdom flows where tea is brewed.”
+- Tagline shortlist (preference order):  
+  1) “Wisdom flows where tea is brewed.”  
+  2) “The tea knows what the soul has forgotten.”  
+  3) “Sip slowly; the universe is listening.”
 
 ## Project structure
 - `index.html` – content and sections (hero, product, ingredients, ritual, story, find, contact, footer).

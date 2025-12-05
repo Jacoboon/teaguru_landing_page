@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Founders placeholder</title>
+  <desc id="desc">Abstract illustration of two people</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf8ef" />
+      <stop offset="100%" stop-color="#f0e2cf" />
+    </linearGradient>
+  </defs>
+  <rect width="520" height="360" rx="22" fill="url(#bg)" stroke="#e6ddcd" />
+  <circle cx="160" cy="160" r="78" fill="#325842" opacity="0.88" />
+  <circle cx="172" cy="136" r="34" fill="#f7f2ea" />
+  <path d="M110 210c6-32 42-44 63-44s52 12 60 44c-16 14-42 26-62 26s-44-10-61-26z" fill="#d89a4c" opacity="0.9" />
+  <circle cx="340" cy="182" r="86" fill="#d89a4c" opacity="0.9" />
+  <circle cx="330" cy="146" r="38" fill="#f7f2ea" />
+  <path d="M278 230c9-30 45-46 70-46s58 16 70 44c-20 18-50 32-73 32s-46-12-67-30z" fill="#325842" opacity="0.85" />
+  <rect x="70" y="268" width="380" height="28" rx="12" fill="#ffffff" opacity="0.8" />
+  <text x="260" y="288" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#1f1c18">Built by people who care about real-life rituals</text>
+</svg>
